@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Blog Page</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #78B3CE;
+            color: white;
+        }
+
+        /* Header Style */
+        header {
+            background-color: #FBF8EF;
+            color: #78B3CE;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Blog Container */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* Blog Card Style */
+        .blog-card {
+            background: #F96E2A;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            flex: 1 1 calc(33.333% - 20px); /* Responsive 3-column layout */
+            min-width: 300px;
+        }
+
+        .blog-card h2 {
+            color: #FBF8EF;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .blog-card p {
+            margin: 10px 0;
+        }
+
+        .blog-card a {
+            text-decoration: none;
+            color: rgb(23, 23, 23);
+            font-weight: bold;
+        }
+
+        .blog-card a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Style */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Blog</h1>
+        <p>Explore the world of Artificial Intelligence</p>
+    </header>
+
+    <div class="container">
+        <!-- Blog 1 -->
+        <div class="blog-card">
+            <h2>The Future of Artificial Intelligence</h2>
+            <p>Discover the opportunities and challenges AI presents in revolutionizing industries worldwide.</p>
+            <a href="blog1.html">Read More</a>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog-card">
+            <h2>How AI is Reshaping Education</h2>
+            <p>Learn how AI is transforming classrooms, personalizing learning, and overcoming educational challenges.</p>
+            <a href="blog2.html">Read More</a>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+            <h2>Understanding Generative AI</h2>
+            <p>Explore how Generative AI is driving creativity in content creation, design, and entertainment.</p>
+            <a href="blog3.html">Read More</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 AI Blog | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
